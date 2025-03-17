@@ -40,3 +40,13 @@ class Teamlead : Employee() {
 }
 
 // TODO здесь можно создать новый класс, который будет наследоваться от класса Employee. Не забудьте переопределить методы haveLunch() и goHome()
+class Teacher: Employee() {
+    override fun haveLunch() {
+        println("На обед схожу на перемене")
+    }
+
+    override fun goHome() {
+        super.goHome()
+        println("А потом еще работа дома")
+    }
+}

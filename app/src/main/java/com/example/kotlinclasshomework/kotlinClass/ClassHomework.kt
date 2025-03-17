@@ -10,4 +10,7 @@ package com.example.kotlinclasshomework.kotlinClass
  */
 fun main() {
     // TODO здесь нужно создать объект своего класса и вызывать у него методы haveLunch() и goHome()
+    val teacher = Teacher()
+    teacher.haveLunch()
+    teacher.goHome()
 }
